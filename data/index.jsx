@@ -72,47 +72,50 @@ export const projects = [
     id: 1,
     title: "Multiple Disease Detection from MRI Images using CNN",
     des: "A deep learning project that uses Convolutional Neural Networks (CNN) to detect multiple diseases from MRI images. This tool aids in early diagnosis and improves medical decision-making.",
-    img: "/p1.svg",
+    img: "/multipleDisease.png",
     iconLists: ["/python.svg", "stm.png"],
-    link: "https://github.com/Jai-jayapalan/Disease_Detection.git",
+    link: "https://github.com/Jai-jayapalan/Multiple_Disease_Detection",
   },
   {
     id: 2,
     title: "Image Description Generator",
     des: "An AI-powered application that generates descriptive captions for images using Next.js and Gemini AI. This project showcases the integration of AI with modern web development frameworks.",
-    img: "/p2.svg",
+    img: "/aiImageAnalyser.jpg",
     iconLists: ["/next.svg", "/gAI.svg", "/tail.svg", "/js.svg"],
-    link: "https://github.com/Jai-jayapalan/Image-analyzer.git",
+    link: "https://github.com/Jai-jayapalan/Image-analyzer",
   },
   {
     id: 3,
-    title: "Nike E-Commerce Site",
-    des: "A fully responsive e-commerce website inspired by Nike, built using React.js and Tailwind CSS. This project demonstrates modern UI/UX design principles and seamless user interactions.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
-    link: "https://github.com/yourusername/nike-ecommerce",
+    title: "Blogspot",
+    des: "A role-based blog management platform built with the MERN stack and Prisma (MySQL). Features include SuperAdmin/Admin roles, blog publishing, draft auto-save, scheduling, analytics dashboards, and cPanel deployment.",
+    img: "/blogspot.png",
+    iconLists: ["/re.svg", "/gAI.svg", "/tail.svg", "/js.svg"],
+    link: "https://github.com/Jai-jayapalan/blogspot",
   },
   {
     id: 4,
-    title: "Image Search",
-    des: "A web application built with ReactJS and styled using TailwindCSS that integrates the PinTrust API to enable seamless image search functionality. This project allows users to search for high-quality images efficiently, with a responsive and modern user interface.",
-    img: "/p2.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/js.svg"],
-    link: "https://github.com/Jai-jayapalan/ImageSearch"
-  }
+    title: "GSAP Cocktail",
+    des: "An interactive web experience built with ReactJS, GSAP animations, and TailwindCSS. Features smooth transitions, creative cocktail-themed visuals, and modern UI/UX showcasing the power of GreenSock for frontend animations.",
+    img: "/gsap_cocktail.jpg",
+    iconLists: ["/re.svg", "/tail.svg", "gsapLogo.png", "/js.svg"],
+    link: "https://github.com/Jai-jayapalan/gsap_cocktail"
+  },
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/Jai-jayapalan"
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/link.svg",
+    link: "https://www.linkedin.com/in/jai-jayathilak"
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "/email.svg",
+    link: "mailto:jaijayathilak@gmail.com"
   },
 ];

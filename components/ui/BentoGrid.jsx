@@ -1,13 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import dynamic from "next/dynamic";
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./BackgroundAnimationGradient";
 import { GlobeDemo } from "./GridGlobe";
 import { IoCopyOutline } from "react-icons/io5"
 import animationData from '@/data/confettie.json'
-import Lottie from "react-lottie";
 import MagicButton from "./MagicButton";
+
+// ✅ dynamically import react-lottie
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 export const BentoGrid = ({ className, children }) => {
   return (
@@ -22,7 +25,7 @@ export const BentoGrid = ({ className, children }) => {
 };
 
 export const BentoGridItem = ({ className, title, description, id, img, imgClassName, spareImg, titleClassName }) => {
-    const leftLists = ["ReactJS", "ExpressJS", "NextJS"];
+    const leftLists = ["MERN stack", "NextJS", "Prisma"];
     const rightLists = ["Java", "Python", "JavaScript"];
 
     const [copied, setCopied] = useState(false);
